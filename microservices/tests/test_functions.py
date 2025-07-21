@@ -17,7 +17,7 @@ class TestMathFunctions(unittest.TestCase):
 
     def test_poww(self):
         self.assertEqual(poww(2, 3), 8)
-        self.assertEqual(poww(5, 0), 1)  # <- atenție! actuala implementare e invalidă pt p=0
+        self.assertEqual(poww(5, 0), 1)
         self.assertEqual(poww(10, 2), 100)
         self.assertEqual(poww(3, 4), 81)
 
